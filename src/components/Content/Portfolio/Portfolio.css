@@ -1,0 +1,37 @@
+/* Portfolio.css */
+.custom-card {
+    color: #fff; /* Text color for better contrast */
+    border-radius: 5px 5px 5px 5px; /* Optional: adds some rounding to the corners */
+    transition: transform 0.3s;
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.05); /* Slightly enlarges the card on hover */
+  }
+  
+  .custom-card-portfolio {
+    background-color: #007bff; /* Blue */
+  }
+  
+  .custom-card-value {
+    background-color: #28a745; /* Green */
+  }
+  
+  .custom-card-market-value {
+    background-color: #ffc107; /* Yellow */
+    color: #000; /* Darker text for better contrast */
+  }
+  
+  .custom-card-redeemed {
+    background-color: #dc3545; /* Red */
+  }
+  
+  .dummy-value {
+    font-size: 1rem;
+    transition: font-weight 0.3s ease-in-out;
+  }
+  
+  .dummy-value:hover {
+    font-weight: bold;
+  }
+  

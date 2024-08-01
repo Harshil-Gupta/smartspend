@@ -11,7 +11,6 @@ if (rootElement) {
   root.render(
     <React.StrictMode>
       <App/>
-
     </React.StrictMode>
   );
 } else {

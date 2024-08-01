@@ -5,6 +5,7 @@ import LockSVG from "../SVG/LockSVG";
 import EmailSVG from "../SVG/EmailSVG";
 import { useForm } from "react-hook-form";
 import { useNavigate } from 'react-router-dom';
+
 const SignupForm = () => {
   const {
     register,
@@ -12,14 +13,11 @@ const SignupForm = () => {
     formState: { errors }
   } = useForm();
 
-  const onSubmit = (data) => {
-    console.log("Form data submitted:", data);
-  };
-
   const navigate = useNavigate();
 
-  const afterSignup = () => {
-    navigate('/home');
+  const onSubmit = (data) => {
+    console.log("Form data submitted:", data);
+    navigate('/home'); // Navigate after successful submission
   };
 
   return (
@@ -72,7 +70,7 @@ const SignupForm = () => {
           <p className="text-red">{errors.password.message}</p>
         )}
       </div>
-      <button type="submit" onClick={afterSignup}>Sign-Up</button>
+      <button type="submit">Sign-Up</button>
     </form>
   );
 };

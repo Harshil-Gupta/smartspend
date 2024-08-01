@@ -18,7 +18,7 @@
   padding: 0.75rem;
   font-weight: bold;
   border-radius: 0.6rem;
-  background-color: #73895d;
+  background-color: #895d7c;
 }
 .signup-react-form > .form-input input:focus-visible,
 .signup-react-form > button:focus-visible {
@@ -27,7 +27,7 @@
 .signup-react-form > button:hover,
 .signup-react-form > button:focus-visible {
   cursor: pointer;
-  background-color: #73895dde;
+  background-color: #88175ede;
 }
 .signup-react-form > .form-input label {
   color: #464646;

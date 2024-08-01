@@ -9,3 +9,7 @@
 .text-olive {
   color: #73895d !important;
 }
+
+body > iframe,hmr-error-overlay  {
+  display: none;
+}

@@ -1,0 +1,32 @@
+/* Expenses.css */
+.transaction-table {
+    background-color: #fff; /* White background for the table */
+    border-radius: 5px; /* Rounded corners for the table */
+    overflow: hidden; /* Ensure corners are rounded */
+  }
+  
+  .transaction-table thead {
+    background-color: #007bff; /* Blue background for the header */
+    color: #fff; /* White text color */
+  }
+  
+  .transaction-table tbody tr:hover {
+    background-color: #f1f1f1; /* Light grey background on hover */
+  }
+  
+  .transaction-table th, .transaction-table td {
+    text-align: center; /* Center align text in cells */
+  }
+  
+  .total-box {
+    background-color: #f8f9fa; /* Light grey background for the totals */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .total-value {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  

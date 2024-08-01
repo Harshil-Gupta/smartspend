@@ -1,0 +1,35 @@
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.custom-card {
+  flex: 1 1 calc(50% - 20px); /* Each card covers approximately 50% of the screen, minus some gap */
+  max-width: calc(50% - 20px);
+  margin: 10px; /* Adjust the margin to add spacing between cards */
+}
+
+@media (min-width: 768px) {
+  .custom-card {
+    flex: 1 1 calc(33.33% - 20px); /* Adjust the width for larger screens if needed */
+    max-width: calc(33.33% - 20px);
+  }
+}
+
+.card-body-stretch {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensure it takes the full height of the card */
+}
+
+.card-button-bottom {
+  margin-top: auto; /* This will push the button to the bottom */
+}
+
+.text-center-custom {
+  text-align: center;
+}
+
+

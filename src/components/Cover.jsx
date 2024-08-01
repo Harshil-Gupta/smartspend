@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react'
 import {
+  background,
   Badge,
   Box,
   Button,
@@ -15,8 +16,10 @@ import {
   Text,
   useDisclosure,
 } from '@chakra-ui/react'
+import backgroundImg from './Content/Investments/Pictures/background.png'
 
 export default function Cover() {
+  
   const [coverImage, setCoverImage] = useState(null)
   const inputRef = useRef(null)
   const { isOpen, onOpen, onClose } = useDisclosure()
@@ -44,7 +47,8 @@ export default function Cover() {
         w="full"
         h="full"
         objectFit="cover"
-        src={coverImage ? coverImage : '/img/cover.jpg'}
+        src = {backgroundImg}
+        // src={coverImage ? {goldImage}: coverImage}
         alt=""
       />
       <Button

@@ -1,22 +1,24 @@
 import "./Signup.css";
 import React from "react";
-import LeafSVG from "../SVG/LeafSVG";
 import AppleSVG from "../SVG/AppleSVG";
-import AutumnSVG from "../SVG/AutumnSVG";
 import GoogleSVG from "../SVG/GoogleSVG";
 import FacebookSVG from "../SVG/FacebookSVG";
 import SignupForm from "../SignupForm/SignupForm";
+import logo from '../Content/Investments/Pictures/logo.jpg';
+import logo3 from '../Content/Investments/Pictures/logo.png';
+
 
 const Signup = () => {
   return (
     <div className="signup-from">
       <div className="signup-froml">
-        <AutumnSVG />
+        <div>
+      <img src={logo3} alt="Logo" style={{ width: '500px', height: 'auto' }} />
+
+      </div>
       </div>
       <div className="signup-fromr">
         <div className="form-header">
-          <LeafSVG />
-          <AutumnSVG />
           <p>Create Account</p>
         </div>
         <div className="form">
